@@ -33,8 +33,6 @@
             this.txtusuarioem = new System.Windows.Forms.TextBox();
             this.txtcontraseñaem = new System.Windows.Forms.TextBox();
             this.btncancelar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btniniciarsesionem
@@ -61,13 +59,6 @@
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -76,12 +67,10 @@
             this.Controls.Add(this.btniniciarsesionem);
             this.Controls.Add(this.txtusuarioem);
             this.Controls.Add(this.txtcontraseñaem);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Opacity = 0.2D;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,7 +82,6 @@
         private System.Windows.Forms.TextBox txtusuarioem;
         private System.Windows.Forms.TextBox txtcontraseñaem;
         private System.Windows.Forms.Button btncancelar;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

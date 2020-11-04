@@ -123,9 +123,6 @@
   <data name="&gt;&gt;btncancelar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>.:: Iniciar Sesion ::.</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -161,8 +158,8 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
   </data>
-  <data name="&gt;&gt;btncancelar.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
@@ -179,9 +176,6 @@
   </data>
   <data name="&gt;&gt;btncancelar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btniniciarsesionem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 255</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -832,9 +826,6 @@
   <data name="txtcontraseñaem.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 29</value>
   </data>
-  <data name="&gt;&gt;txtcontraseñaem.Name" xml:space="preserve">
-    <value>txtcontraseñaem</value>
-  </data>
   <data name="&gt;&gt;txtusuarioem.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -853,17 +844,26 @@
   <data name="&gt;&gt;txtcontraseñaem.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;btniniciarsesionem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btniniciarsesionem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 255</value>
+  </data>
   <data name="txtusuarioem.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="txtusuarioem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 29</value>
   </data>
   <data name="btncancelar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
   </data>
-  <data name="btncancelar.Text" xml:space="preserve">
-    <value>Cancelar</value>
-  </data>
   <data name="txtusuarioem.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="btncancelar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;txtusuarioem.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -886,25 +886,22 @@
   <data name="btncancelar.Location" type="System.Drawing.Point, System.Drawing">
     <value>227, 255</value>
   </data>
-  <data name="&gt;&gt;btniniciarsesionem.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;txtcontraseñaem.Name" xml:space="preserve">
+    <value>txtcontraseñaem</value>
   </data>
-  <data name="btncancelar.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="btncancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>.:: Iniciar Sesion ::.</value>
   </data>
-  <data name="txtusuarioem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 29</value>
+  <data name="&gt;&gt;btncancelar.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>zu</value>
   </metadata>
 </root>
